@@ -1,0 +1,86 @@
+.card {
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  box-shadow: none;
+  border: none;
+}
+
+.card-title {
+  font-family: "Krona One", sans-serif;
+  color: #E60012;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  color: #f5f5f5 !important;
+  font-size: 0.95rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn-github,
+.btn-contact {
+  border-radius: 30px;
+  border: none;
+  color: #f5f5f5;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-github {
+  background: linear-gradient(145deg, #2b2b2b, #1a1a1a);
+  border: 1px solid #333;
+}
+
+.btn-github:hover {
+  background: linear-gradient(145deg, #3d3d3d, #000);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.btn-contact {
+  background: linear-gradient(145deg, #E60012, #b0000d);
+  box-shadow: 0 4px 15px rgba(230, 0, 18, 0.3);
+}
+
+.btn-contact:hover {
+  background: linear-gradient(145deg, #ff1a1a, #c30010);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
+}
+
+.btn-outline-secondary {
+  border: 1px solid #E60012;
+  color: #E60012;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #E60012;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.card-footer {
+  background-color: #0d0d0d;
+  color: #bbbbbb;
+  border-top: 1px solid #222;
+  font-size: 0.9rem;
+  padding: 15px 0;
+}
+
+.card-footer strong {
+  color: #f5f5f5 !important;
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
