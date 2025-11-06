@@ -6,10 +6,10 @@
 }
 
 .card-title {
-  font-family: "Krona One", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #E60012;
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
 }
 
 .card-text {
@@ -17,6 +17,7 @@
   font-size: 0.95rem;
   max-width: 600px;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn-github,
@@ -73,14 +74,4 @@
 
 .card-footer strong {
   color: #f5f5f5 !important;
-}
-
-@media (max-width: 768px) {
-  .card-title {
-    font-size: 1.1rem;
-  }
-
-  .card-text {
-    font-size: 0.9rem;
-  }
 }

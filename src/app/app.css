@@ -1,10 +1,9 @@
-html, body {
-  height: 100%;
+* {
   margin: 0;
   padding: 0;
-  background-color: #0d0d0d;
-  color: #f5f5f5;
+  box-sizing: border-box;
 }
+
 
 app-header-component {
   display: block;
@@ -21,6 +20,8 @@ app-header-component a {
   color: #f5f5f5;
   text-decoration: none;
   transition: color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 app-header-component a:hover {
@@ -33,7 +34,8 @@ app-header-component a:hover {
   border: none;
   border-radius: 30px;
   padding: 12px 28px;
-  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.3s ease;
@@ -56,9 +58,11 @@ app-header-component a:hover {
 }
 
 .apresentacao__conteudo__titulo {
-  font-size: 2.2rem;
-  font-family: "Krona One", sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
   color: #f5f5f5;
+  letter-spacing: 1px;
 }
 
 .titulo-destaque {
@@ -66,12 +70,13 @@ app-header-component a:hover {
 }
 
 .apresentacao__conteudo__texto {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   color: #ffffff;
   line-height: 1.6;
   margin-top: 15px;
   max-width: 600px;
-  text-align: left; 
+  text-align: left;
 }
 
 .scroll-container section {
@@ -84,6 +89,26 @@ app-header-component a:hover {
   background-color: #0f0f0f;
 }
 
+.geracoes {
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+  padding: 30px 50px;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.geracoes__conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
 
 app-footer-component {
   display: block;
@@ -93,6 +118,7 @@ app-footer-component {
   text-align: center;
   padding: 20px 0;
   font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
 }
 
 app-footer-component strong {
