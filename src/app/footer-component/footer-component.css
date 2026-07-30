@@ -75,3 +75,19 @@
 .card-footer strong {
   color: #f5f5f5 !important;
 }
+
+@media (max-width: 480px) {
+  .card-title {
+    font-size: 1.4rem;
+  }
+
+  .card-body {
+    padding: 20px 16px;
+  }
+
+  .btn-github,
+  .btn-contact {
+    font-size: 0.9rem;
+    padding: 10px 18px !important;
+  }
+}

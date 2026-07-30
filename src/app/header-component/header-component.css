@@ -2,4 +2,31 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3.0rem;
     color: #E60012;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-brand i {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+
+    .navbar-brand i {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    .navbar-brand i {
+        font-size: 1.2rem;
+    }
 }

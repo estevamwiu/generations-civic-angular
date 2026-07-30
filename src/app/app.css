@@ -124,3 +124,70 @@ app-footer-component {
 app-footer-component strong {
   color: #E60012;
 }
+
+.apresentacao__imagem img {
+  width: 420px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .apresentacao {
+    padding: 8% 6%;
+    gap: 40px;
+  }
+
+  .apresentacao__conteudo__titulo {
+    font-size: 2.2rem;
+  }
+
+  .scroll-container section {
+    padding: 60px 6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .apresentacao {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 50px 6%;
+    gap: 30px;
+  }
+
+  .apresentacao__conteudo__titulo,
+  .apresentacao__conteudo__texto {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .apresentacao__imagem img {
+    width: 260px;
+  }
+
+  .scroll-container section {
+    padding: 50px 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  app-header-component {
+    padding: 12px 5%;
+  }
+
+  .apresentacao__conteudo__titulo {
+    font-size: 1.6rem;
+  }
+
+  .apresentacao__conteudo__texto {
+    font-size: 1rem;
+  }
+
+  .btn-explore {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+  }
+
+  .apresentacao__imagem img {
+    width: 200px;
+  }
+}
