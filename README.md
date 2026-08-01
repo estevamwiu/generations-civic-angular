@@ -1,59 +1,121 @@
 # GenerationsCivic
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.8.
+Aplicação web desenvolvida em **Angular**, com deploy contínuo na Vercel.
 
-## Development server
+🔗 **Acesse o site:** [generations-civic-angular.vercel.app](https://generations-civic-angular.vercel.app)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
+## 📋 Sobre o projeto
+
+> Adicione aqui uma breve descrição do propósito do projeto: o que ele resolve, para quem é destinado e o que o usuário pode fazer nele.
+
+## 🚀 Tecnologias utilizadas
+
+- **[Angular](https://angular.dev/)** 20
+- **TypeScript**
+- **Angular CLI**
+
+## 📁 Estrutura do projeto
+
+```
+generations-civic-angular/
+├── public/assets/images/   # Imagens e assets estáticos
+├── src/                    # Código-fonte da aplicação
+├── angular.json             # Configuração do Angular CLI
+├── package.json              # Dependências e scripts
+└── tsconfig*.json            # Configurações do TypeScript
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## ⚙️ Como executar localmente
 
-## Code scaffolding
+### Pré-requisitos
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- [Node.js](https://nodejs.org/) instalado
+- Angular CLI instalado globalmente:
+  ```bash
+  npm install -g @angular/cli
+  ```
+
+### Passo a passo
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/estevamwiu/generations-civic-angular.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd generations-civic-angular
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   ```
+5. Abra o navegador em `http://localhost:4200/`. A aplicação recarrega automaticamente ao salvar alterações no código.
+
+## 🧱 Scaffolding de código
+
+Para gerar um novo componente:
 
 ```bash
-ng generate component component-name
+ng generate component nome-do-componente
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Para ver todos os schematics disponíveis (componentes, diretivas, pipes, etc.):
 
 ```bash
 ng generate --help
 ```
 
-## Building
+## 🏗️ Build
 
-To build the project run:
+Para compilar o projeto para produção:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Os artefatos de build ficam disponíveis na pasta `dist/`.
 
-## Running unit tests
+## ✅ Testes
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+**Testes unitários** (via [Karma](https://karma-runner.github.io)):
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+**Testes end-to-end (e2e)**:
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+> O Angular CLI não vem com um framework de e2e por padrão — escolha o que preferir (Cypress, Playwright, etc.).
 
-## Additional Resources
+## 🌐 Deploy
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+O projeto está publicado na **Vercel**:
+👉 https://generations-civic-angular.vercel.app
+
+## 📚 Recursos adicionais
+
+Para mais informações sobre o Angular CLI, consulte a [documentação oficial](https://angular.dev/tools/cli).
+
+## 📬 Contato
+
+- GitHub: [@estevamwiu](https://github.com/estevamwiu)
+- LinkedIn: _adicione seu link aqui_
+- E-mail: _adicione seu e-mail aqui_
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+⭐ Se você gostou deste projeto, deixe uma estrela no repositório!
