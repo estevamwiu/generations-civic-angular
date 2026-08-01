@@ -8,7 +8,7 @@ Aplicação web desenvolvida em **Angular**, com deploy contínuo na Vercel.
 
 ## 📋 Sobre o projeto
 
-> Adicione aqui uma breve descrição do propósito do projeto: o que ele resolve, para quem é destinado e o que o usuário pode fazer nele.
+> Landing Page contendo as gerações do carro Honda Civic.
 
 ## 🚀 Tecnologias utilizadas
 
