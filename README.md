@@ -109,8 +109,8 @@ Para mais informações sobre o Angular CLI, consulte a [documentação oficial]
 ## 📬 Contato
 
 - GitHub: [@estevamwiu](https://github.com/estevamwiu)
-- LinkedIn: _adicione seu link aqui_
-- E-mail: _adicione seu e-mail aqui_
+- LinkedIn: https://www.linkedin.com/in/estevamwiu/
+- E-mail: williamestevam@outlook.com
 
 ## 📄 Licença
 
